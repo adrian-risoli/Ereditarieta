@@ -21,8 +21,8 @@ namespace Ereditarieta
             {
                 int r = rnd.Next(0, 50);
                 Console.WriteLine("come vuoi chiamare il ghepardo?: ");
-                string a = Console.ReadLine();
-                ghepardo ghepardo = new ghepardo(a,r);
+                string n = Console.ReadLine();
+                ghepardo ghepardo = new ghepardo(n,r);
                 ghepardi.Add(ghepardo);
             }
             foreach (ghepardo item in ghepardi)
