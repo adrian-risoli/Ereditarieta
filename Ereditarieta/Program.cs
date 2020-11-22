@@ -12,7 +12,7 @@ namespace Ereditarieta
             List<ghepardo> ghepardi = new List<ghepardo>();
             int num_ghepardi;
             Random rnd = new Random();
-            ghepardo rodrigo = new ghepardo("rodrigo", 25);
+            ghepardo rodrigo = new ghepardo("rodrigo", 20);
 
             Console.WriteLine("quanti ghepardi vuoi?: ");
             num_ghepardi = Convert.ToInt32(Console.ReadLine());
