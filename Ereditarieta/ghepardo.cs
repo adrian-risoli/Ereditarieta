@@ -28,7 +28,7 @@ namespace Ereditarieta
             }
             else if (velocità < v1)
             {
-                Console.WriteLine("ha vinto "+ n);
+                Console.WriteLine("rodrigo a perso");
             }
             else
             {
